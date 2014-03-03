@@ -1,5 +1,18 @@
 {
+  "name": "hangul-pronounciation",
+  "version": "0.1.0",
+  "description": "Node.js library for analyzing Korean pronounciation",
+  "keywords": [
+    "Node",
+    "Node.js",
+    "Korean",
+    "hangul"
+  ],
   "dependencies": {
     "unorm": "^1.3.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-contrib-yuidoc": "^0.5.1"
   }
 }
