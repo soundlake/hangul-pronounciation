@@ -8,11 +8,36 @@
     "Korean",
     "hangul"
   ],
+  "homepage": "http://soundlake.github.io/hangul-pronounciation",
+  "bugs": {
+    "url": "https://github.com/soundlake/hangul-pronounciation/issues"
+  },
+  "license": "MIT",
+  "author": "soundlake <soundlake@gmail.com> (http://soundlake.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soundlake/hangul-pronounciation"
+  },
   "dependencies": {
     "unorm": "^1.3.2"
   },
   "devDependencies": {
+    "unorm": "^1.3.2",
     "grunt": "^0.4.2",
-    "grunt-contrib-yuidoc": "^0.5.1"
+    "grunt-contrib-yuidoc": "^0.5.1",
+    "karma-script-launcher": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.2",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-jasmine": "^0.1.5",
+    "requirejs": "^2.1.11",
+    "karma-requirejs": "^0.2.1",
+    "karma-coffee-preprocessor": "^0.1.3",
+    "karma-phantomjs-launcher": "^0.1.2",
+    "karma": "^0.10.9",
+    "grunt-karma": "^0.6.2",
+    "grunt-contrib-watch": "^0.5.3",
+    "mocha": "^1.17.1",
+    "karma-mocha": "^0.1.1"
   }
 }

@@ -11,5 +11,7 @@ grunt.initConfig({
                 outdir: './docs/'
             }
         }
-    }
+    },
 });
+
+grunt.loadNpmTasks('grunt-karma');
