@@ -18,6 +18,9 @@ module.exports = function (string, callback) {
 
         var codepoint = chr.charCodeAt(0);
 
+        if (codepoint < 0x1100 ||
+            codepoint >= 0x1200 && codepoint < 0x2E80 ||
+            codepoint 
         return (codepoint >= 33 && codepoint <= 126) ?
             JSON.stringfy(chr) :
             '0x' + codepoint.toString(16).toUpperCase();
