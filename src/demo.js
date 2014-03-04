@@ -11,3 +11,6 @@ jamo.decomposite(str, function (arr) {
         console.log(arrs.join(''));
     });
 });
+
+var rule05 = require
+console.log('rule05.js test');
