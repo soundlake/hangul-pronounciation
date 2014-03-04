@@ -27,7 +27,7 @@ module.exports = function (string, callback) {
         if (!callback) {
             return array;
         } else {
-            callback(array);
+            return callback(array);
         }
 
     });

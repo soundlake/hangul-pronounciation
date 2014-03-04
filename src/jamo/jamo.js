@@ -5,8 +5,6 @@
  * @submodule ./composite
  * @submodule ./decomposite
  */
-module.exports = function () {
-    var composite = require('./composite'),
-        decomposite = require('./decomposite');
-};
+module.exports.composite = require('./composite');
+module.exports.decomposite = require('./decomposite');
 

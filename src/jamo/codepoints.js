@@ -19,10 +19,7 @@ module.exports = function (string, callback) {
         var codepoint = chr.charCodeAt(0);
 
         if (codepoint >= 0x1100 && codepoint < 0x1200 ||    // Hangul Jamo
-            codepoint >= 0x3130 && codepoint < 0x3190 ||    // Hangul Compatibility Jamo
-            codepoint >= 0xA960 && codepoint < 0xAC00 ||    // Hangul Jamo Extended-A
-            codepoint >= 0xAC00 && codepoint < 0xD7B0 ||    // Hnagul Syllables
-            codepoint >= 0xD7B0 && codepoint < 0xD800) {    // Hangul Jamo Extended-B
+            codepoint >= 0xAC00 && codepoint < 0xD7B0) {    // Hnagul Syllables
             return '0x' + codepoint.toString(16).toUpperCase();
         } else {
             throw err;
@@ -33,7 +30,7 @@ module.exports = function (string, callback) {
     if (!callback) {
         return array;
     } else {
-        callback(array);
+        return callback(array);
     }
 
 };
